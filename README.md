@@ -11,18 +11,23 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 7. Lucid ORM
 8. Migrations and seeds
 
-## Setup
-
-Use the adonis command to install the blueprint
-
-```bash
-adonis new yardstick
-```
-
 or manually clone the repo and then run `npm install`.
 
+## Initialization
 
-### Migrations
+Run the following command to run startup API in production mode.
+
+```js
+adonis serve
+```
+
+Run the following command to run startup API in development mode.
+
+```js
+adonis serve --dev
+```
+
+## Migrations
 
 Run the following command to run startup migrations.
 
